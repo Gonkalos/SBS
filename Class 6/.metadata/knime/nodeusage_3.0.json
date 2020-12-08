@@ -1,0 +1,135 @@
+
+{
+    "version": "4.3.0.v202012022156",
+    "created": "2020-12-07 17:04",
+    "nodestats": {
+        "nodes": [
+            {
+                "id": "org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 297,
+                "nrcreated": 2,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter",
+                "nrexecs": 56,
+                "nrfails": 0,
+                "exectime": 35,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value"
+            },
+            {
+                "id": "org.knime.base.node.preproc.stringmanipulation.StringManipulationNodeFactory#String Manipulation",
+                "nrexecs": 36,
+                "nrfails": 0,
+                "exectime": 718,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory#Column Filter"
+            },
+            {
+                "id": "org.knime.rest.nodes.get.RestGetNodeFactory#GET Request",
+                "nrexecs": 28,
+                "nrfails": 0,
+                "exectime": 197969,
+                "nrcreated": 0,
+                "successor": "org.knime.json.node.totable.JSONToTableNodeFactory#JSON to Table"
+            },
+            {
+                "id": "org.knime.json.node.totable.JSONToTableNodeFactory#JSON to Table",
+                "nrexecs": 55,
+                "nrfails": 0,
+                "exectime": 3147,
+                "nrcreated": 0,
+                "successor": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine"
+            },
+            {
+                "id": "org.knime.rest.nodes.post.RestPostNodeFactory#POST Request",
+                "nrexecs": 1,
+                "nrfails": 0,
+                "exectime": 5968,
+                "nrcreated": 1,
+                "successor": "org.knime.json.node.totable.JSONToTableNodeFactory#JSON to Table"
+            },
+            {
+                "id": "org.knime.base.node.io.tablecreator.TableCreator2NodeFactory#Table Creator",
+                "nrexecs": 2,
+                "nrfails": 0,
+                "exectime": 23,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.transpose.TransposeTableNodeFactory#Transpose",
+                "nrexecs": 3,
+                "nrfails": 0,
+                "exectime": 21,
+                "nrcreated": 0,
+                "successor": "n/a"
+            },
+            {
+                "id": "org.knime.base.node.preproc.double2int2.DoubleToIntNodeFactory#Double To Int",
+                "nrexecs": 13,
+                "nrfails": 0,
+                "exectime": 46,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter"
+            },
+            {
+                "id": "org.knime.base.node.preproc.sorter.SorterNodeFactory#Sorter",
+                "nrexecs": 5,
+                "nrfails": 0,
+                "exectime": 46,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.pmml.missingval.compute.MissingValueHandlerNodeFactory#Missing Value",
+                "nrexecs": 18,
+                "nrfails": 0,
+                "exectime": 567,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner",
+                "nrexecs": 7,
+                "nrfails": 0,
+                "exectime": 164,
+                "nrcreated": 1,
+                "successor": "org.knime.base.node.preproc.joiner.Joiner2NodeFactory#Joiner"
+            },
+            {
+                "id": "org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine",
+                "nrexecs": 0,
+                "nrfails": 0,
+                "exectime": 0,
+                "nrcreated": 1,
+                "successor": "n/a"
+            }
+        ],
+        "metaNodes": {
+            "nrexecs": 0,
+            "nrfails": 0,
+            "exectime": 0,
+            "nrcreated": 0
+        },
+        "wrappedNodes": {
+            "nrexecs": 0,
+            "nrfails": 0,
+            "exectime": 0,
+            "nrcreated": 0
+        }
+    },
+    "uptime": 28733621,
+    "workflowsOpened": 1,
+    "remoteWorkflowsOpened": 0,
+    "workflowsImported": 0,
+    "workflowsExported": 0,
+    "launches": 1,
+    "lastApplicationID": "org.knime.product.KNIME_APPLICATION",
+    "timeSinceLastStart": 28733621,
+    "crashes": 0,
+    "properlyShutDown": true
+}

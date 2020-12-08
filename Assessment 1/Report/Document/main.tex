@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[toc]{glossaries}
+\input{package.tex}
+\makeindex
+\makenoidxglossaries
+\input{Document/glossary}
+
+
+
+\begin{document}
+\input{title_page.tex}
+\tableofcontents
+\newpage
+ 
+% ---------------------------------------------------------------------------
+% 1) INTRODUCAO E CONTEXTUALIZACAO
+\input{Document/sections/Intro/intro}
+%\input{Document/sections/1_Dominios_a_tratar}
+
+% ---------------------------------------------------------------------------
+% 2) METODOLOGIA CRISP-DM
+\input{Document/sections/metodologia/crispdm}
+
+% ---------------------------------------------------------------------------
+% 3) ACIDENTES BRAGA
+\input{Document/sections/AccidentsBraga/main_accidents}
+
+% ---------------------------------------------------------------------------
+% 4) LOL (SEM FALAR DE WORKFLOWS)
+\input{Document/sections/TheLeague/main_lol}
+
+% ---------------------------------------------------------------------------
+% 5) KNIME WORKFLOWS
+\input{Document/sections/knime/main_knime}
+
+% ---------------------------------------------------------------------------
+% 6) SUGESTOES E RECOMENDACOES
+\input{Document/sections/sugestoes/main_sugestoes} 
+
+% ---------------------------------------------------------------------------
+% 7) CONCLUSÃO
+\input{Document/sections/conclusao/main_conclusao} 
+
+
+\newpage
+\printnoidxglossaries
+\end{document}
