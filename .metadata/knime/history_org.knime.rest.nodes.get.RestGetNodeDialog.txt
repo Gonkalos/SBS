@@ -1,2 +1,0 @@
-https://www.google.com
-https://api.openaq.org/v1/cities?country=PT
