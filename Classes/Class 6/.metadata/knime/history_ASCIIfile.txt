@@ -1,7 +1,0 @@
-knime://knime.workflow/data.all
-file:/Users/goncalo/Documents/MIEI/Year%204/MLFA/SBS/Class%207/Phase%202/credit_card.csv
-/Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Class 7/Phase 2/credit_card.csv
-file:/Users/goncalo/Documents/MIEI/Year%204/MLFA/SBS/Class%207/Phase%202/pokemon.csv
-/Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Class 7/Phase 2/pokemon.csv
-file:/Users/goncalo/Documents/MIEI/Year%204/MLFA/SBS/Class%207/Phase%202/pokedex.csv
-/Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Class 7/Phase 2/pokedex.csv
