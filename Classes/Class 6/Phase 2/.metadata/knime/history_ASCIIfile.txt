@@ -1,2 +1,0 @@
-file:/Users/goncalo/Documents/MIEI/Year%204/MLFA/SBS/Class%207/Phase%202/credit_card.csv
-knime://knime.workflow/data.all
