@@ -1,0 +1,8 @@
+https://www.google.com
+
+https://community-open-weather-map.p.rapidapi.com/forecast/daily?q=Lisboa,pt
+https://community-open-weather-map.p.rapidapi.com/forecast/daily?q=Porto,pt
+https://community-open-weather-map.p.rapidapi.com/forecast/daily?q=London,uk
+http://api.openweathermap.org/data/2.5/weather?q=London,uk
+https://community-open-weather-map.p.rapidapi.com/weather?q=London,uk
+https://api.openaq.org/v1/cities?country=PT

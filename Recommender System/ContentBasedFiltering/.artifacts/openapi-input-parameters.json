@@ -1,0 +1,12 @@
+
+{
+    "type": "object",
+    "properties": {
+        "UserId-251:195": {
+            "type": "string",
+            "default": "76535",
+            "description": "Enter Description",
+            "example": "76535"
+        }
+    }
+}

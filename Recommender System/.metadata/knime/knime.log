@@ -1,0 +1,147 @@
+2021-01-14 15:15:18,253 : WARN  : Worker-5: Downloading statistics for node recommendations. :  : WorkflowCoachView :  :  : Could not update node recommendations statistics.
+java.io.IOException: Downloaded file doesn't contain node recommendation data.
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.checkDownloadedFile(AbstractFileDownloadTripleProvider.java:190)
+	at org.knime.workbench.workflowcoach.data.AbstractFileDownloadTripleProvider.update(AbstractFileDownloadTripleProvider.java:169)
+	at org.knime.workbench.workflowcoach.prefs.UpdateJob.run(UpdateJob.java:132)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2021-01-14 15:16:35,199 : WARN  : main :  : Node : GroupBy : 0:163:164 : No aggregation column defined
+2021-01-14 15:16:35,200 : WARN  : main :  : Node : GroupBy : 0:163:164 : No aggregation column defined
+2021-01-14 15:16:35,205 : WARN  : main :  : Node : GroupBy : 0:163:142:133 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:35,214 : WARN  : main :  : Node : GroupBy : 0:163:139:138 : No aggregation column defined
+2021-01-14 15:16:35,214 : WARN  : main :  : Node : GroupBy : 0:163:139:138 : No aggregation column defined
+2021-01-14 15:16:35,216 : WARN  : main :  : Node : GroupBy : 0:163:144:133 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:35,265 : WARN  : main :  : Node : GroupBy : 0:163:161:154 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:36,096 : WARN  : main :  : Node : Integer Widget : 0:253:252 : Errors overwriting node settings with flow variables: Unknown variable "numberRecipes"
+2021-01-14 15:16:36,099 : WARN  : main :  : Node : Rule-based Row Filter : 0:127:121 : Line: 5: Not a valid flow variable: tag ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$tagName$ MATCHES $${Stag}$$ => TRUE
+                  ^
+2021-01-14 15:16:36,100 : WARN  : main :  : Node : Rule-based Row Filter : 0:84:75 : Line: 5: Not a valid flow variable: nutrition ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$typeName$ MATCHES $${Snutrition}$$ => TRUE
+                   ^
+2021-01-14 15:16:36,103 : WARN  : main :  : Node : Rule-based Row Filter : 0:129:121 : Line: 5: Not a valid flow variable: ingredient ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$ingredient$ MATCHES $${Singredient}$$ => TRUE
+                     ^
+2021-01-14 15:16:36,106 : WARN  : main :  : Node : Rule-based Row Filter : 0:163:163 : Line: 5: Not a valid flow variable: recipeID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$recipe_id$ = $${IrecipeID}$$ => TRUE
+              ^
+2021-01-14 15:16:36,107 : WARN  : main :  : Node : Rule-based Row Filter : 0:163:132 : Line: 5: Not a valid flow variable: userID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${IuserID}$$ => TRUE
+            ^
+2021-01-14 15:16:46,445 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:255 : Line: 5: Not a valid flow variable: UserId ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${SUserId}$$ => TRUE
+            ^
+2021-01-14 15:16:46,662 : WARN  : ModalContext :  : Node : GroupBy : 0:318:312 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:46,695 : WARN  : ModalContext :  : Node : Row Filter : 0:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"
+2021-01-14 15:16:54,355 : WARN  : main :  : Node : Row Filter : 0:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"
+2021-01-14 15:16:54,361 : WARN  : main :  : Node : Row Filter : 0:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"
+2021-01-14 15:16:54,399 : WARN  : main :  : Node : GroupBy : 0:207:138:119 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:54,441 : WARN  : main :  : Node : GroupBy : 0:318:312 : No grouping column included. Aggregate complete table.
+2021-01-14 15:16:54,442 : WARN  : main :  : Node : Row Filter : 0:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"
+2021-01-14 15:18:03,301 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:163 : Line: 5: Not a valid flow variable: recipeID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$recipe_id$ = $${IrecipeID}$$ => TRUE
+              ^
+2021-01-14 15:18:03,311 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:132 : Line: 5: Not a valid flow variable: userID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${IuserID}$$ => TRUE
+            ^
+2021-01-14 15:18:04,397 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:129:121 : Line: 5: Not a valid flow variable: ingredient ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$ingredient$ MATCHES $${Singredient}$$ => TRUE
+                     ^
+2021-01-14 15:18:04,425 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:84:75 : Line: 5: Not a valid flow variable: nutrition ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$typeName$ MATCHES $${Snutrition}$$ => TRUE
+                   ^
+2021-01-14 15:18:04,516 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:127:121 : Line: 5: Not a valid flow variable: tag ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$tagName$ MATCHES $${Stag}$$ => TRUE
+                  ^
+2021-01-14 15:18:04,535 : WARN  : ModalContext :  : Node : Integer Widget : 0:253:252 : Errors overwriting node settings with flow variables: Unknown variable "numberRecipes"
+2021-01-22 15:10:37,150 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:163 : Line: 5: Not a valid flow variable: recipeID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$recipe_id$ = $${IrecipeID}$$ => TRUE
+              ^
+2021-01-22 15:10:37,168 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:132 : Line: 5: Not a valid flow variable: userID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${IuserID}$$ => TRUE
+            ^
+2021-01-22 15:10:38,566 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:129:121 : Line: 5: Not a valid flow variable: ingredient ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$ingredient$ MATCHES $${Singredient}$$ => TRUE
+                     ^
+2021-01-22 15:10:38,606 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:84:75 : Line: 5: Not a valid flow variable: nutrition ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$typeName$ MATCHES $${Snutrition}$$ => TRUE
+                   ^
+2021-01-22 15:10:38,718 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:127:121 : Line: 5: Not a valid flow variable: tag ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$tagName$ MATCHES $${Stag}$$ => TRUE
+                  ^
+2021-01-22 15:10:38,740 : WARN  : ModalContext :  : Node : Integer Widget : 0:253:252 : Errors overwriting node settings with flow variables: Unknown variable "numberRecipes"
+2021-01-22 15:10:47,886 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:163 : Line: 5: Not a valid flow variable: recipeID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$recipe_id$ = $${IrecipeID}$$ => TRUE
+              ^
+2021-01-22 15:10:47,889 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:132 : Line: 5: Not a valid flow variable: userID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${IuserID}$$ => TRUE
+            ^
+2021-01-22 15:10:48,037 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:129:121 : Line: 5: Not a valid flow variable: ingredient ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$ingredient$ MATCHES $${Singredient}$$ => TRUE
+                     ^
+2021-01-22 15:10:48,091 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:84:75 : Line: 5: Not a valid flow variable: nutrition ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$typeName$ MATCHES $${Snutrition}$$ => TRUE
+                   ^
+2021-01-22 15:10:48,175 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:127:121 : Line: 5: Not a valid flow variable: tag ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$tagName$ MATCHES $${Stag}$$ => TRUE
+                  ^
+2021-01-22 15:10:48,185 : WARN  : ModalContext :  : Node : Integer Widget : 0:253:252 : Errors overwriting node settings with flow variables: Unknown variable "numberRecipes"
+2021-01-22 15:10:54,195 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 3:255 : Line: 5: Not a valid flow variable: UserId ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${SUserId}$$ => TRUE
+            ^
+2021-01-22 15:10:54,284 : WARN  : ModalContext :  : Node : GroupBy : 3:207:138:119 : No grouping column included. Aggregate complete table.
+2021-01-22 15:10:54,519 : WARN  : ModalContext :  : Node : GroupBy : 3:318:312 : No grouping column included. Aggregate complete table.
+2021-01-22 15:10:54,550 : WARN  : ModalContext :  : Node : Row Filter : 3:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"
+2021-01-22 15:11:08,062 : ERROR : KNIME Sync Exec Dispatcher-1 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1105)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:853)
+	at org.eclipse.swt.widgets.Display.create(Display.java:837)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:736)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:727)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1439)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-22 15:11:08,062 : ERROR : KNIME Sync Exec Dispatcher-2 :  : SyncExecQueueDispatcher :  :  : Uncaught exception while queuing events into main thread
+org.eclipse.swt.SWTException: Invalid thread access
+	at org.eclipse.swt.SWT.error(SWT.java:4723)
+	at org.eclipse.swt.SWT.error(SWT.java:4638)
+	at org.eclipse.swt.SWT.error(SWT.java:4609)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1105)
+	at org.eclipse.swt.widgets.Display.createDisplay(Display.java:853)
+	at org.eclipse.swt.widgets.Display.create(Display.java:837)
+	at org.eclipse.swt.graphics.Device.<init>(Device.java:132)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:736)
+	at org.eclipse.swt.widgets.Display.<init>(Display.java:727)
+	at org.eclipse.swt.widgets.Display.getDefault(Display.java:1439)
+	at org.knime.workbench.ui.SyncExecQueueDispatcher$2.run(SyncExecQueueDispatcher.java:120)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-22 15:28:59,904 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:163 : Line: 5: Not a valid flow variable: recipeID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$recipe_id$ = $${IrecipeID}$$ => TRUE
+              ^
+2021-01-22 15:28:59,910 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:163:132 : Line: 5: Not a valid flow variable: userID ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${IuserID}$$ => TRUE
+            ^
+2021-01-22 15:29:01,048 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:129:121 : Line: 5: Not a valid flow variable: ingredient ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$ingredient$ MATCHES $${Singredient}$$ => TRUE
+                     ^
+2021-01-22 15:29:01,074 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:84:75 : Line: 5: Not a valid flow variable: nutrition ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$typeName$ MATCHES $${Snutrition}$$ => TRUE
+                   ^
+2021-01-22 15:29:01,162 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:127:121 : Line: 5: Not a valid flow variable: tag ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$tagName$ MATCHES $${Stag}$$ => TRUE
+                  ^
+2021-01-22 15:29:01,179 : WARN  : ModalContext :  : Node : Integer Widget : 0:253:252 : Errors overwriting node settings with flow variables: Unknown variable "numberRecipes"
+2021-01-22 15:34:21,372 : WARN  : ModalContext :  : Node : Rule-based Row Filter : 0:255 : Line: 5: Not a valid flow variable: UserId ({knime.workspace="knime.workspace" (STRING: /Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Recommender System)})
+$user_id$ = $${SUserId}$$ => TRUE
+            ^
+2021-01-22 15:34:21,480 : WARN  : ModalContext :  : Node : GroupBy : 0:207:138:119 : No grouping column included. Aggregate complete table.
+2021-01-22 15:34:21,758 : WARN  : ModalContext :  : Node : GroupBy : 0:318:312 : No grouping column included. Aggregate complete table.
+2021-01-22 15:34:21,782 : WARN  : ModalContext :  : Node : Row Filter : 0:200:147:133 : Errors overwriting node settings with flow variables: Unknown variable "UserId"

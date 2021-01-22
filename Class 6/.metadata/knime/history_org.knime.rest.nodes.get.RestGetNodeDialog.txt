@@ -1,2 +1,0 @@
-https://api.openaq.org/v1/cities?country=PT
-https://api.openaq.org/v1/latest?city=Aveiro&parameter=o3&limit=1

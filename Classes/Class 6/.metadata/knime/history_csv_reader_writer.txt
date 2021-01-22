@@ -1,0 +1,2 @@
+/Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Class 7/Phase 2/pokedex.csv
+/Users/goncalo/Documents/MIEI/Year 4/MLFA/SBS/Class 7/Phase 2/pokemon.csv
